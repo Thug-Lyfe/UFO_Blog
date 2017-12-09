@@ -22,7 +22,8 @@ To begin working with jenkins, we need two things.
 1. A DigitalOcean account, https://www.digitalocean.com/ 
 2. putty, a tool to connect to our host (linux users do not need this tool), http://www.putty.org/ 
 <br>Now when we have both things ready, we need a public and a private key, this is used to connect to your host.
-<br>“gif of greating a key pair”
+<br>![alt text][key_pair]
+<br>[![Demo CountPages alpha](https://share.gifyoutube.com/KzB6Gb.gif)](https://www.youtube.com/watch?v=ek1j272iAmc)
 <br>Now we need a droplet (other web hosts can be used but we will be using digitalocean.com for this example, if you are a student you can get a 50 dollar coupon, among other things, via github.com, https://education.github.com/pack.
 <br>remember to add your private key when initializing the droplet.
 <br>“gif of creating a droplet”.
@@ -38,3 +39,9 @@ Well if jenkins is so good, why are there not more people using it? Well first o
 
 ###conclusion
 Anyone who has to deal with manual deployment, should think about setting up a CI chain. It can not be said enough, that manual deployment leads to irregular deployments, mistakes, missed steps in the deployment chain and so on. <br>Having an autonomous deployment, will make it both easier and better for all partners involved.
+
+
+
+
+
+[key_pair]: https://github.com/Thug-Lyfe/UFO_Blog/src/final.gif "key pair creation"
