@@ -44,4 +44,4 @@ Anyone who has to deal with manual deployment, should think about setting up a C
 
 
 
-[key_pair]: https://github.com/Thug-Lyfe/UFO_Blog/src/final.gif "key pair creation"
+[key_pair]: https://github.com/Thug-Lyfe/UFO_Blog/blob/master/src/final.gif "key pair creation"
