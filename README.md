@@ -23,9 +23,8 @@ These following steps will showcase how Jenkins works during a workflow:
 2.1 Requirements
 
 There are next to no requirements for jenkins. All the user needs is: 
-- A droplet of minimum 2 GB.
 - JDK 1.5 or above
-- 2 GB RAM is recommended
+- A droplet with min 1GB of ram though 2 GB is recommended
 - Any operating system
 
 2.3 Pro / cons for Jenkins
@@ -72,10 +71,9 @@ The lines to paste into your putty window is as following:
 <br>7. sudo apt-get install jenkins
 <br> Jenkins is now running and can be accessed on "YOUR_IP":8080
 <br>We can now use a repository on github, where we can add a webhook and use it in jenkins.
-<br>“gif of creating and using the webhook”<br>
----
-***
-___
+<br>on your github repository you can add a jenkins servive, and in the jenkins you can install a a github integration plugin and your good to go.
+<br> add an item and link it to your github
+
 <br>## Why don't we see more Jenkins?
 Well if jenkins is so good, why are there not more people using it? Well first of all jenkins is not for everyone, nor is it omnipotent, eg. people who are using platforms such as wordpress or other webapp creators, will not find much use for it, as they have CI build into it. But for everyone making their own webapp from scrap, even if it is for a local network, it can work splendidly.
 <br>Another reason is that it costs money, if you have it hosted on digitalocean.com it will cost a minimum of 10 dollars a month, and that can be a solid reason for many small time business owners, or private people to not opt for using it.
