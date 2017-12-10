@@ -72,7 +72,7 @@ The lines to paste into your putty window is as following:
 <br>7. sudo apt-get install jenkins
 <br> Jenkins is now running and can be accessed on "YOUR_IP":8080
 <br>We can now use a repository on github, where we can add a webhook and use it in jenkins.
-<br>“gif of creating and using the webhook”
+<br>“gif of creating and using the webhook”<br>
 ---
 ## Why don't we see more Jenkins?
 Well if jenkins is so good, why are there not more people using it? Well first of all jenkins is not for everyone, nor is it omnipotent, eg. people who are using platforms such as wordpress or other webapp creators, will not find much use for it, as they have CI build into it. But for everyone making their own webapp from scrap, even if it is for a local network, it can work splendidly.
