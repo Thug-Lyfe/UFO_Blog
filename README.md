@@ -16,7 +16,7 @@ We want to show, that setting up a CI chain can be both easy and painless. Even 
 https://www.tutorialspoint.com/jenkins/jenkins_overview.htm
 https://en.wikipedia.org/wiki/Continuous_integration 
 
-
+<a href="http://www.youtube.com/watch?feature=player_embedded&v=T9qTWAG8s-E" target="_blank"><img src="http://img.youtube.com/vi/T9qTWAG8s-E/0.jpg" alt="IMAGE ALT TEXT HERE" width="240" height="180" border="10"></a>
 ## How to install Jenkins
 To begin working with jenkins, we need three things.
 1. A DigitalOcean account, https://www.digitalocean.com/
