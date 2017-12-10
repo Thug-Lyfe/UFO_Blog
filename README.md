@@ -5,16 +5,37 @@ Every developer has been in the situation where they have to deploy a webapp. Do
 We want to show, that setting up a CI chain can be both easy and painless. Even if you have no knowledge of it beforehand and even if you are students such as ourselves, that you can with relative ease setup Jenkins.
 
 
-1. Hvad er CI
-  - blabla
-  - pro/cons i forhold til manuel
+1. What is CI
+
+Every developer knows the struggle of merging. A simple change to a single file can easily have unintended consequences to a working repository. This results in development teams working isolated from each other, even as far to be working on their own separate branches of the master, to prevent getting tangled up in each other’s work.
+Development teams that are working on branches that hasn’t been integrated to the master,  often requires phases of stabilization and integration, prior to a release.
+The practice of continuous integration addresses these problems and is being used to encourage development teams to commit and integrate their code, to a shared repository more frequently doing the working process. When a developer commits code to the shared repository, an automated build will be triggered to grab the code and start a build, tests and validations of the full master branch. It’s used to identify and fix mistake faster, which then increases the productivity.
+
 2. Jenkins
-  - hvad er jenkins
-  - hvad er jenkins godt til
-  - requirements
-3. Pros / cons for CI over manuel
-https://www.tutorialspoint.com/jenkins/jenkins_overview.htm
-https://en.wikipedia.org/wiki/Continuous_integration 
+
+Jenkins is a software which operates as an automated server, running on servlet containers, that allows continuous integration.
+These following steps will showcase how Jenkins works during a workflow:
+- Developers check their source code
+- Jenkins will pick up the changed source code, then trigger a build to run any test, if required.
+- The build output will be available in the Jenkins dashboards.
+
+2.1 Requirements
+
+There are next to no requirements for jenkins. All the user needs, is any droplet of minimum 2 GB.
+
+2.3 Pro / cons for Jenkins
+
+- It’s distributed
+- It’s easy to install
+- It’s easy to configure
+
+3. Pros / cons for CI over manual integration
+
+- Issues caught early
+- No merge conflicts
+- The waiting to see if one members code works won’t be there as it will be tested and built as it gets committed
+- It’s automated
+- Makes it easier for deployment
 
 
 ## How to install Jenkins
