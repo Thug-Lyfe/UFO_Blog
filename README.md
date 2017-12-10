@@ -23,7 +23,7 @@ To begin working with jenkins, we need three things.
 2. git, https://git-scm.com/
 3. putty, a tool to connect to our host (linux users do not need this tool), http://www.putty.org/ 
 <br>Now when we have these things ready, we need a public and a private key, this is used to connect to your host.
-<div style="text-align:center"><a  href="http://www.youtube.com/watch?feature=player_embedded&v=T9qTWAG8s-E" target="_blank"><img src="https://github.com/Thug-Lyfe/UFO_Blog/blob/master/src/final.gif" align="center" alt="ssh key pair" width="50%" height="50%" border="10"></a></div>
+<p align="center"><a  href="http://www.youtube.com/watch?feature=player_embedded&v=T9qTWAG8s-E" target="_blank"><img src="https://github.com/Thug-Lyfe/UFO_Blog/blob/master/src/final.gif" align="center" alt="ssh key pair" width="50%" height="50%" border="10"></a></p>
 
 <br>Now we need a droplet (other web hosts can be used but we will be using digitalocean.com for this example, if you are a student you can get a 50 dollar coupon, among other things, via github.com, https://education.github.com/pack.
 <br>remember to add your private key when initializing the droplet.
