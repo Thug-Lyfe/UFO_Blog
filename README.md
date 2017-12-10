@@ -16,16 +16,15 @@ We want to show, that setting up a CI chain can be both easy and painless. Even 
 https://www.tutorialspoint.com/jenkins/jenkins_overview.htm
 https://en.wikipedia.org/wiki/Continuous_integration 
 
-<a href="http://www.youtube.com/watch?feature=player_embedded&v=T9qTWAG8s-E" target="_blank"><img src="http://img.youtube.com/vi/T9qTWAG8s-E/0.jpg" alt="IMAGE ALT TEXT HERE" width="240" height="180" border="10"></a>
+
 ## How to install Jenkins
 To begin working with jenkins, we need three things.
 1. A DigitalOcean account, https://www.digitalocean.com/
 2. git, https://git-scm.com/
 3. putty, a tool to connect to our host (linux users do not need this tool), http://www.putty.org/ 
 <br>Now when we have these things ready, we need a public and a private key, this is used to connect to your host.
-<br>[![Demo CountPages alpha](https://github.com/Thug-Lyfe/UFO_Blog/blob/master/src/final.gif)](https://youtu.be/T9qTWAG8s-E){ width=100px }
-<img src="https://github.com/Thug-Lyfe/UFO_Blog/blob/master/src/DO_screenshot.png" style="width: 100px; height:100px;"/>
-![drawing](https://github.com/Thug-Lyfe/UFO_Blog/blob/master/src/DO_screenshot.png ){ width=150px }
+<a href="http://www.youtube.com/watch?feature=player_embedded&v=T9qTWAG8s-E" target="_blank"><img src="https://github.com/Thug-Lyfe/UFO_Blog/blob/master/src/final.gif" alt="ssh key pair" width="240" height="180" border="10"></a>
+
 <br>Now we need a droplet (other web hosts can be used but we will be using digitalocean.com for this example, if you are a student you can get a 50 dollar coupon, among other things, via github.com, https://education.github.com/pack.
 <br>remember to add your private key when initializing the droplet.
 <br>“gif of creating a droplet”.
