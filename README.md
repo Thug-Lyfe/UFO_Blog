@@ -53,16 +53,25 @@ To begin working with jenkins, we need three things.
 2. git, https://git-scm.com/
 3. putty, a tool to connect to our host (linux users do not need this tool), http://www.putty.org/ 
 <br>Now when we have these things ready, we need a public and a private key, this is used to connect to your host.
-<p align="center"><a  href="http://www.youtube.com/watch?feature=player_embedded&v=T9qTWAG8s-E" target="_blank"><img src="https://github.com/Thug-Lyfe/UFO_Blog/blob/master/src/final.gif" align="center" alt="ssh key pair" width="50%" height="50%" border="10"></a></p>
+<p align="center"><a  href="https://youtu.be/pFwREmUMz64" target="_blank"><img src="https://github.com/Thug-Lyfe/UFO_Blog/blob/master/src/final.gif" align="center" alt="ssh key pair" width="50%" height="50%" border="10"></a></p>
 
 <br>Now we need a droplet (other web hosts can be used but we will be using digitalocean.com for this example, if you are a student you can get a 50 dollar coupon, among other things, via github.com, https://education.github.com/pack.
 <br>remember to add your private key when initializing the droplet.
-<p align="center"><a  href="http://www.youtube.com/watch?feature=player_embedded&v=pFwREmUMz64" target="_blank"><img src="https://github.com/Thug-Lyfe/UFO_Blog/blob/master/src/DO_screenshot.png" align="center" alt="ssh key pair" width="50%" height="50%" border="10"></a></p>
+
 <p align="center"><a  href="https://youtu.be/pFwREmUMz64" target="_blank"><img src="https://github.com/Thug-Lyfe/UFO_Blog/blob/master/src/DO_screenshot.png" align="center" alt="ssh key pair" width="50%" height="50%" border="10"></a></p>
 
 <br>Now open putty and connect to your droplet and install jenkins
-<br>“video of installing jenkins”
-<br>now you have your jenkins running, if you are using github, you can add a webhook and use it in jenkins.
+<p align="center"><a  href="https://youtu.be/pFwREmUMz64" target="_blank"><img src="https://github.com/Thug-Lyfe/UFO_Blog/blob/master/src/DO_screenshot.png" align="center" alt="ssh key pair" width="50%" height="50%" border="10"></a></p>
+The lines to paste into your putty window is as following:
+  - sudo apt-get update
+  - sudo apt-get install default-jre
+  - sudo apt-get install default-jdk
+  - sudo wget -q -O - http://pkg.jenkins-ci.org/debian/jenkins-ci.org.key | sudo apt-key add -
+  - sudo sh -c 'echo deb http://pkg.jenkins-ci.org/debian binary/ > /etc/apt/sources.list.d/jenkins.list'
+  - sudo apt-get update
+  - sudo apt-get install jenkins
+<br> Jenkins is now running and can be accessed on <YOUR_IP>:8080
+<br>We can now use a repository on github, where we can add a webhook and use it in jenkins.
 <br>“gif of creating and using the webhook”
 
 ## Why don't we see more Jenkins?
@@ -74,8 +83,3 @@ Anyone who has to deal with manual deployment, should think about setting up a C
 
 
 
-
-img[src$="centerme"] {
-  display:block;
-  margin: 0 auto;
-}
