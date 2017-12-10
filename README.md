@@ -45,7 +45,7 @@ There are next to no requirements for jenkins. All the user needs is:
 - It’s automated
 - Makes it easier for deployment
 
-
+---
 ## How to install Jenkins
 To begin working with jenkins, we need three things.
 1. A DigitalOcean account, https://www.digitalocean.com/
@@ -72,7 +72,7 @@ The lines to paste into your putty window is as following:
 <br> Jenkins is now running and can be accessed on "YOUR_IP":8080
 <br>We can now use a repository on github, where we can add a webhook and use it in jenkins.
 <br>on your github repository you can add a jenkins servive, and in the jenkins you can install a a github integration plugin and your good to go.
-<br> add an item and link it to your github
+<br> Add an item and link it to your github and use the build trigger to use your webhook and run what you want.
 
 ---
 <br>## Why don't we see more Jenkins?
