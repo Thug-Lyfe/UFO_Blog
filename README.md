@@ -53,7 +53,8 @@ There are next to no requirements for jenkins. All the user needs is:
 
 ---
 ## How to install Jenkins
-To begin working with jenkins, we need three things.
+note: the images are links to the full youtube clips.
+<br>To begin working with jenkins, we need three things.
 1. A DigitalOcean account, https://www.digitalocean.com/
 2. git, https://git-scm.com/
 3. putty, a tool to connect to our host (linux users do not need this tool), http://www.putty.org/ 
