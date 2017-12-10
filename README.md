@@ -6,7 +6,8 @@ Marco S. Blum
 Christian Lind
 
 ---
-Every developer has been in the situation where they have to deploy a webapp. Doing this manually can lead to inconsistency and mistakes. This is where setting up your ‘continuous integration’ with Jenkins can help you a lot. Setting up jenkins is easier than you might have thought, and your knowledge of it should not stop you from getting a completely autonomous deployment chain.
+*Every developer has been in the situation where they have to deploy a webapp. Doing this manually can lead to inconsistency and mistakes. This is where setting up your ‘continuous integration’ with Jenkins can help you a lot. Setting up jenkins is easier than you might have thought, and your knowledge of it should not stop you from getting a completely autonomous deployment chain.*
+
 
 We want to show, that setting up a CI chain can be both easy and painless. Even if you have no knowledge of it beforehand and even if you are students such as ourselves, that you can with relative ease setup Jenkins.
 
