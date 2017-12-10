@@ -96,8 +96,8 @@ Anyone who has to deal with manual deployment, should think about setting up a C
 
 ---
 ## References
-ref.2 - https://en.wikipedia.org/wiki/Jenkins_(software)
-ref.1 - https://www.visualstudio.com/learn/what-is-continuous-integration/
-https://youtu.be/T9qTWAG8s-E - ssh key creation
-https://youtu.be/pFwREmUMz64 - Digital ocean droplet create
-https://youtu.be/4b_OvbeQYko - Jenkins installation video
+<br> ref.2 - https://en.wikipedia.org/wiki/Jenkins_(software)
+<br> ref.1 - https://www.visualstudio.com/learn/what-is-continuous-integration/
+<br> https://youtu.be/T9qTWAG8s-E - ssh key creation
+<br> https://youtu.be/pFwREmUMz64 - Digital ocean droplet create
+<br> https://youtu.be/4b_OvbeQYko - Jenkins installation video
