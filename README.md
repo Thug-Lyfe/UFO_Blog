@@ -11,7 +11,7 @@ Every developer has been in the situation where they have to deploy a webapp. Do
 We want to show, that setting up a CI chain can be both easy and painless. Even if you have no knowledge of it beforehand and even if you are students such as ourselves, that you can with relative ease setup Jenkins.
 
 
-### What is CI
+### What is CI?
 
 Every developer knows the struggle of merging. A simple change to a single file can easily have unintended consequences to a working repository. This results in development teams working isolated from each other, even as far to be working on their own separate branches of the master, to prevent getting tangled up in each other’s work.
 Development teams that are working on branches that hasn’t been integrated to the master,  often requires phases of stabilization and integration, prior to a release.
