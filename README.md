@@ -23,12 +23,12 @@ To begin working with jenkins, we need three things.
 2. git, https://git-scm.com/
 3. putty, a tool to connect to our host (linux users do not need this tool), http://www.putty.org/ 
 <br>Now when we have these things ready, we need a public and a private key, this is used to connect to your host.
-<br>![alt text][key_pair]
 <br>[![Demo CountPages alpha](https://github.com/Thug-Lyfe/UFO_Blog/blob/master/src/final.gif)](https://youtu.be/T9qTWAG8s-E)
+
 <br>Now we need a droplet (other web hosts can be used but we will be using digitalocean.com for this example, if you are a student you can get a 50 dollar coupon, among other things, via github.com, https://education.github.com/pack.
 <br>remember to add your private key when initializing the droplet.
 <br>“gif of creating a droplet”.
-
+<br> [![Do](https://github.com/Thug-Lyfe/UFO_Blog/tree/master/src/DO_screenshot.png)](https://youtu.be/pFwREmUMz64 "Droplet creation")
 <br>Now open putty and connect to your droplet and install jenkins
 <br>“video of installing jenkins”
 <br>now you have your jenkins running, if you are using github, you can add a webhook and use it in jenkins.
@@ -44,5 +44,3 @@ Anyone who has to deal with manual deployment, should think about setting up a C
 
 
 
-
-[key_pair]: https://github.com/Thug-Lyfe/UFO_Blog/blob/master/src/final.gif "key pair creation"
