@@ -27,8 +27,9 @@ To begin working with jenkins, we need three things.
 
 <br>Now we need a droplet (other web hosts can be used but we will be using digitalocean.com for this example, if you are a student you can get a 50 dollar coupon, among other things, via github.com, https://education.github.com/pack.
 <br>remember to add your private key when initializing the droplet.
-<br>“gif of creating a droplet”.
-<br> [![Do](https://github.com/Thug-Lyfe/UFO_Blog/blob/master/src/DO_screenshot.png?style=centerme)](https://youtu.be/pFwREmUMz64 "Droplet creation")
+<p align="center"><a  href="http://www.youtube.com/watch?feature=player_embedded&v=pFwREmUMz64" target="_blank"><img src="https://github.com/Thug-Lyfe/UFO_Blog/blob/master/src/DO_screenshot.png" align="center" alt="ssh key pair" width="50%" height="50%" border="10"></a></p>
+<p align="center"><a  href="https://youtu.be/pFwREmUMz64" target="_blank"><img src="https://github.com/Thug-Lyfe/UFO_Blog/blob/master/src/DO_screenshot.png" align="center" alt="ssh key pair" width="50%" height="50%" border="10"></a></p>
+
 <br>Now open putty and connect to your droplet and install jenkins
 <br>“video of installing jenkins”
 <br>now you have your jenkins running, if you are using github, you can add a webhook and use it in jenkins.
