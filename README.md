@@ -80,7 +80,7 @@ The lines to paste into your putty window is as following:
 Well if jenkins is so good, why are there not more people using it? Well first of all jenkins is not for everyone, nor is it omnipotent, eg. people who are using platforms such as wordpress or other webapp creators, will not find much use for it, as they have CI build into it. But for everyone making their own webapp from scrap, even if it is for a local network, it can work splendidly.
 <br>Another reason is that it costs money, if you have it hosted on digitalocean.com it will cost a minimum of 10 dollars a month, and that can be a solid reason for many small time business owners, or private people to not opt for using it.
 
-### conclusion
+### So what should we take away from this?
 Anyone who has to deal with manual deployment, should think about setting up a CI chain. It can not be said enough, that manual deployment leads to irregular deployments, mistakes, missed steps in the deployment chain and so on. <br>Having an autonomous deployment, will make it both easier and better for all partners involved.
 
 
