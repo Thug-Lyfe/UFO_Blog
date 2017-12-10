@@ -18,12 +18,13 @@ https://en.wikipedia.org/wiki/Continuous_integration
 
 
 ## How to install Jenkins
-To begin working with jenkins, we need two things.
-1. A DigitalOcean account, https://www.digitalocean.com/ 
-2. putty, a tool to connect to our host (linux users do not need this tool), http://www.putty.org/ 
-<br>Now when we have both things ready, we need a public and a private key, this is used to connect to your host.
+To begin working with jenkins, we need three things.
+1. A DigitalOcean account, https://www.digitalocean.com/
+2. git, https://git-scm.com/
+3. putty, a tool to connect to our host (linux users do not need this tool), http://www.putty.org/ 
+<br>Now when we have these things ready, we need a public and a private key, this is used to connect to your host.
 <br>![alt text][key_pair]
-<br>[![Demo CountPages alpha](https://share.gifyoutube.com/KzB6Gb.gif)](https://www.youtube.com/watch?v=ek1j272iAmc)
+<br>[![Demo CountPages alpha](key_pair)](https://youtu.be/T9qTWAG8s-E)
 <br>Now we need a droplet (other web hosts can be used but we will be using digitalocean.com for this example, if you are a student you can get a 50 dollar coupon, among other things, via github.com, https://education.github.com/pack.
 <br>remember to add your private key when initializing the droplet.
 <br>“gif of creating a droplet”.
