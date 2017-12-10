@@ -62,14 +62,14 @@ To begin working with jenkins, we need three things.
 
 <br>Now open putty and connect to your droplet and install jenkins
 <p align="center"><a  href="https://youtu.be/4b_OvbeQYko" target="_blank"><img src="https://github.com/Thug-Lyfe/UFO_Blog/blob/master/src/jenkins_screenshot.png" align="center" alt="jenkins installation" width="50%" height="50%" border="10"></a></p>
-The lines to paste into your putty window is as following:
-  - sudo apt-get update
-  - sudo apt-get install default-jre
-  - sudo apt-get install default-jdk
-  - sudo wget -q -O - http://pkg.jenkins-ci.org/debian/jenkins-ci.org.key | sudo apt-key add -
-  - sudo sh -c 'echo deb http://pkg.jenkins-ci.org/debian binary/ > /etc/apt/sources.list.d/jenkins.list'
-  - sudo apt-get update
-  - sudo apt-get install jenkins
+The lines to paste into your putty window is as following:<br>
+1. sudo apt-get update
+2. sudo apt-get install default-jre
+3. sudo apt-get install default-jdk
+4. sudo wget -q -O - http://pkg.jenkins-ci.org/debian/jenkins-ci.org.key | sudo apt-key add -
+5. sudo sh -c 'echo deb http://pkg.jenkins-ci.org/debian binary/ > /etc/apt/sources.list.d/jenkins.list'
+6. sudo apt-get update
+7. sudo apt-get install jenkins
 <br> Jenkins is now running and can be accessed on <YOUR_IP>:8080
 <br>We can now use a repository on github, where we can add a webhook and use it in jenkins.
 <br>“gif of creating and using the webhook”
