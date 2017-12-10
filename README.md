@@ -26,6 +26,7 @@ These following steps will showcase how Jenkins works during a workflow:
 - Jenkins will pick up the changed source code, then trigger a build to run any test, if required.
 - The build output will be available in the Jenkins dashboards.
 <p align="center"><img src="https://github.com/Thug-Lyfe/UFO_Blog/blob/master/src/jenkins_diagram.png" alt="jenkins diagram" width="50%" height="50%" border="10"></p>
+
 #### Requirements
 
 There are next to no requirements for jenkins. All the user needs is: 
