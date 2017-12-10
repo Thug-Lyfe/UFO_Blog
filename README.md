@@ -62,20 +62,21 @@ To begin working with jenkins, we need three things.
 <br>Now open putty and connect to your droplet and install jenkins
 <p align="center"><a  href="https://youtu.be/4b_OvbeQYko" target="_blank"><img src="https://github.com/Thug-Lyfe/UFO_Blog/blob/master/src/jenkins_install.gif" align="center" alt="jenkins installation" width="50%" height="50%" border="10"></a></p>
 The lines to paste into your putty window is as following:
-<br>1. sudo apt-get update
-<br>2. sudo apt-get install default-jre
-<br>3. sudo apt-get install default-jdk
-<br>4. sudo wget -q -O - http://pkg.jenkins-ci.org/debian/jenkins-ci.org.key | sudo apt-key add -
-<br>5. sudo sh -c 'echo deb http://pkg.jenkins-ci.org/debian binary/ > /etc/apt/sources.list.d/jenkins.list'
-<br>6. sudo apt-get update
-<br>7. sudo apt-get install jenkins
+<br> 1. sudo apt-get update
+<br> 2. sudo apt-get install default-jre
+<br> 3. sudo apt-get install default-jdk
+<br> 4. sudo wget -q -O - http://pkg.jenkins-ci.org/debian/jenkins-ci.org.key | sudo apt-key add -
+<br> 5. sudo sh -c 'echo deb http://pkg.jenkins-ci.org/debian binary/ > /etc/apt/sources.list.d/jenkins.list'
+<br> 6. sudo apt-get update
+<br> 7. sudo apt-get install jenkins
 <br> Jenkins is now running and can be accessed on "YOUR_IP":8080
 <br>We can now use a repository on github, where we can add a webhook and use it in jenkins.
-<br>on your github repository you can add a jenkins servive, and in the jenkins you can install a a github integration plugin and your good to go.
-<br> Add an item and link it to your github and use the build trigger to use your webhook and run what you want.
+<br>On your github repository you can add a jenkins servive, and in the jenkins you can install a a github integration plugin and your good to go.
+<br>Add an item and link it to your github and use the build trigger to use your webhook and run what you want.
 
 ---
-<br>## Why don't we see more Jenkins?
+<br>
+## Why don't we see more Jenkins?
 Well if jenkins is so good, why are there not more people using it? Well first of all jenkins is not for everyone, nor is it omnipotent, eg. people who are using platforms such as wordpress or other webapp creators, will not find much use for it, as they have CI build into it. But for everyone making their own webapp from scrap, even if it is for a local network, it can work splendidly.
 <br>Another reason is that it costs money, if you have it hosted on digitalocean.com it will cost a minimum of 10 dollars a month, and that can be a solid reason for many small time business owners, or private people to not opt for using it.
 
