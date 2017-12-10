@@ -74,6 +74,7 @@ The lines to paste into your putty window is as following:
 <br>on your github repository you can add a jenkins servive, and in the jenkins you can install a a github integration plugin and your good to go.
 <br> add an item and link it to your github
 
+---
 <br>## Why don't we see more Jenkins?
 Well if jenkins is so good, why are there not more people using it? Well first of all jenkins is not for everyone, nor is it omnipotent, eg. people who are using platforms such as wordpress or other webapp creators, will not find much use for it, as they have CI build into it. But for everyone making their own webapp from scrap, even if it is for a local network, it can work splendidly.
 <br>Another reason is that it costs money, if you have it hosted on digitalocean.com it will cost a minimum of 10 dollars a month, and that can be a solid reason for many small time business owners, or private people to not opt for using it.
