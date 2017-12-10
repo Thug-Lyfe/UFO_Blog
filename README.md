@@ -70,7 +70,7 @@ The lines to paste into your putty window is as following:
 <br>5. sudo sh -c 'echo deb http://pkg.jenkins-ci.org/debian binary/ > /etc/apt/sources.list.d/jenkins.list'
 <br>6. sudo apt-get update
 <br>7. sudo apt-get install jenkins
-<br> Jenkins is now running and can be accessed on <p>"<YOUR_IP>"</p>:8080
+<br> Jenkins is now running and can be accessed on "YOUR_IP":8080
 <br>We can now use a repository on github, where we can add a webhook and use it in jenkins.
 <br>“gif of creating and using the webhook”
 ---
