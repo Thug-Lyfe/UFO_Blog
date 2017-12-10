@@ -12,13 +12,13 @@ Christian Lind
 We want to show, that setting up a CI chain can be both easy and painless. Even if you have no knowledge of it beforehand and even if you are students such as ourselves, that you can with relative ease setup Jenkins.
 
 
-### What is CI?
+### What is CI? -ref.1
 
 Every developer knows the struggle of merging. A simple change to a single file can easily have unintended consequences to a working repository. This results in development teams working isolated from each other, even as far to be working on their own separate branches of the master, to prevent getting tangled up in each other’s work.
 Development teams that are working on branches that hasn’t been integrated to the master,  often requires phases of stabilization and integration, prior to a release.
 The practice of continuous integration addresses these problems and is being used to encourage development teams to commit and integrate their code, to a shared repository more frequently doing the working process. When a developer commits code to the shared repository, an automated build will be triggered to grab the code and start a build, tests and validations of the full master branch. It’s used to identify and fix mistake faster, which then increases the productivity.
 
-### Jenkins
+### Jenkins ref.2
 
 Jenkins is a software which operates as an automated server, running on servlet containers, that allows continuous integration.
 
@@ -56,6 +56,7 @@ There are next to no requirements for jenkins. All the user needs is:
 ---
 ## How to install Jenkins
 note: the images are links to the full youtube clips.
+<br>
 <br>To begin working with jenkins, we need three things.
 1. A DigitalOcean account, https://www.digitalocean.com/
 2. git, https://git-scm.com/
@@ -95,6 +96,8 @@ Anyone who has to deal with manual deployment, should think about setting up a C
 
 ---
 ## References
-https://en.wikipedia.org/wiki/Jenkins_(software)
-
-https://www.visualstudio.com/learn/what-is-continuous-integration/
+ref.2 - https://en.wikipedia.org/wiki/Jenkins_(software)
+ref.1 - https://www.visualstudio.com/learn/what-is-continuous-integration/
+https://youtu.be/T9qTWAG8s-E - ssh key creation
+https://youtu.be/pFwREmUMz64 - Digital ocean droplet create
+https://youtu.be/4b_OvbeQYko - Jenkins installation video
