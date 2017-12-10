@@ -14,6 +14,7 @@ The practice of continuous integration addresses these problems and is being use
 2. Jenkins
 
 Jenkins is a software which operates as an automated server, running on servlet containers, that allows continuous integration.
+
 These following steps will showcase how Jenkins works during a workflow:
 - Developers check their source code
 - Jenkins will pick up the changed source code, then trigger a build to run any test, if required.
