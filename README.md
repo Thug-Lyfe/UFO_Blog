@@ -25,7 +25,7 @@ To begin working with jenkins, we need three things.
 <br>Now when we have these things ready, we need a public and a private key, this is used to connect to your host.
 <br>[![Demo CountPages alpha](https://github.com/Thug-Lyfe/UFO_Blog/blob/master/src/final.gif)](https://youtu.be/T9qTWAG8s-E){ width=100px }
 <img src="https://github.com/Thug-Lyfe/UFO_Blog/blob/master/src/DO_screenshot.png" style="width: 100px; height:100px;"/>
-![drawing](https://github.com/Thug-Lyfe/UFO_Blog/blob/master/src/DO_screenshot.png){ width=150px }
+![drawing](https://github.com/Thug-Lyfe/UFO_Blog/blob/master/src/DO_screenshot.png ){ width=150px }
 <br>Now we need a droplet (other web hosts can be used but we will be using digitalocean.com for this example, if you are a student you can get a 50 dollar coupon, among other things, via github.com, https://education.github.com/pack.
 <br>remember to add your private key when initializing the droplet.
 <br>“gif of creating a droplet”.
