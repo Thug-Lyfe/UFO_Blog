@@ -22,13 +22,21 @@ These following steps will showcase how Jenkins works during a workflow:
 
 2.1 Requirements
 
-There are next to no requirements for jenkins. All the user needs, is any droplet of minimum 2 GB.
+There are next to no requirements for jenkins. All the user needs is: 
+- A droplet of minimum 2 GB.
+- JDK 1.5 or above
+- 2 GB RAM is recommended
+- Any operating system
 
 2.3 Pro / cons for Jenkins
 
-- It’s distributed
-- It’s easy to install
-- It’s easy to configure
+- Pros
+  - It’s distributed
+  - It’s easy to install
+  - It’s easy to configure
+- Cons
+  - It costs money
+  - Takes time to configure and set up
 
 3. Pros / cons for CI over manual integration
 
