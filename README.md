@@ -52,15 +52,15 @@ To begin working with jenkins, we need three things.
 2. git, https://git-scm.com/
 3. putty, a tool to connect to our host (linux users do not need this tool), http://www.putty.org/ 
 <br>Now when we have these things ready, we need a public and a private key, this is used to connect to your host.
-<p align="center"><a  href="https://youtu.be/pFwREmUMz64" target="_blank"><img src="https://github.com/Thug-Lyfe/UFO_Blog/blob/master/src/final.gif" align="center" alt="ssh key pair" width="50%" height="50%" border="10"></a></p>
+<p align="center"><a  href="https://youtu.be/pFwREmUMz64" target="_blank"><img src="https://github.com/Thug-Lyfe/UFO_Blog/blob/master/src/key.gif" align="center" alt="ssh key pair" width="50%" height="50%" border="10"></a></p>
 
 <br>Now we need a droplet (other web hosts can be used but we will be using digitalocean.com for this example, if you are a student you can get a 50 dollar coupon, among other things, via github.com, https://education.github.com/pack.
 <br>remember to add your private key when initializing the droplet.
 
-<p align="center"><a  href="https://youtu.be/pFwREmUMz64" target="_blank"><img src="https://github.com/Thug-Lyfe/UFO_Blog/blob/master/src/DO_screenshot.png" align="center" alt="droplet creation" width="50%" height="50%" border="10"></a></p>
+<p align="center"><a  href="https://youtu.be/pFwREmUMz64" target="_blank"><img src="https://github.com/Thug-Lyfe/UFO_Blog/blob/master/src/DO.gif" align="center" alt="droplet creation" width="50%" height="50%" border="10"></a></p>
 
 <br>Now open putty and connect to your droplet and install jenkins
-<p align="center"><a  href="https://youtu.be/4b_OvbeQYko" target="_blank"><img src="https://github.com/Thug-Lyfe/UFO_Blog/blob/master/src/jenkins_screenshot.png" align="center" alt="jenkins installation" width="50%" height="50%" border="10"></a></p>
+<p align="center"><a  href="https://youtu.be/4b_OvbeQYko" target="_blank"><img src="https://github.com/Thug-Lyfe/UFO_Blog/blob/master/src/jenkins_install.gif" align="center" alt="jenkins installation" width="50%" height="50%" border="10"></a></p>
 The lines to paste into your putty window is as following:
 <br>1. sudo apt-get update
 <br>2. sudo apt-get install default-jre
