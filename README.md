@@ -24,7 +24,7 @@ Continuous delivery <a name="ref3">[<sup>[**3**]</sup>](#end3)</a> is an extensi
 
 
 
-*Diagram showcasing delivery and deployment* <a name="ref4">[<sup>[**4**]</sup>](#end4)</a>
+*Diagram showcasing delivery and deployment <a name="ref4">[<sup>[**4**]</sup>](#end4)</a>*
 
 
 
@@ -136,31 +136,31 @@ Jenkins has even reached more than 100.000 Active installations worldwide<a name
 
 ---
 ## References   
-<a name="end1">[<sup>[**1**]</sup>](#ref1)</a> *https://en.wikipedia.org/wiki/Continuous_integration - *
+<a name="end1">[<sup>[**1**]</sup>](#ref1)</a> *https://en.wikipedia.org/wiki/Continuous_integration - Wikipedia for Continuous Integration*
 
-<a name="end2">[<sup>[**2**]</sup>](#ref2)</a> *https://www.visualstudio.com/learn/what-is-continuous-integration/ - *
+<a name="end2">[<sup>[**2**]</sup>](#ref2)</a> *https://www.visualstudio.com/learn/what-is-continuous-integration/ - Visual Studios how to guide about Continuous Integration*
 
-<a name="end3">[<sup>[**3**]</sup>](#ref3)</a> *https://blog.assembla.com/assemblablog/tabid/12618/bid/92411/continuous-delivery-vs-continuous-deployment-vs-continuous-integration-wait-huh.aspx - *
+<a name="end3">[<sup>[**3**]</sup>](#ref3)</a> *https://blog.assembla.com/assemblablog/tabid/12618/bid/92411/continuous-delivery-vs-continuous-deployment-vs-continuous-integration-wait-huh.aspx - A blog about the differences between Continuous Integration, Delivery and Deployment*
 
-<a name="end4">[<sup>[**4**]</sup>](#ref4)</a> *https://puppet.com/blog/continuous-delivery-vs-continuous-deployment-what-s-diff  - *
+<a name="end4">[<sup>[**4**]</sup>](#ref4)</a> *https://puppet.com/blog/continuous-delivery-vs-continuous-deployment-what-s-diff  - A blog about the differences between Continuous Delivery and Deployment plus it's the source for the picture used*
 
-<a name="end5">[<sup>[**5**]</sup>](#ref5)</a> *http://searchsoftwarequality.techtarget.com/definition/Continuous-Software-Development - *
+<a name="end5">[<sup>[**5**]</sup>](#ref5)</a> *http://searchsoftwarequality.techtarget.com/definition/Continuous-Software-Development - A blog about Continuous Software Development*
 
-<a name="end6">[<sup>[**6**]</sup>](#ref6)</a> *https://en.wikipedia.org/wiki/Jenkins_(software) - *
+<a name="end6">[<sup>[**6**]</sup>](#ref6)</a> *https://en.wikipedia.org/wiki/Jenkins_(software) - Wikipedia for Jenkins*
 
-<a name="end7">[<sup>[**7**]</sup>](#ref7)</a> *https://www.tutorialspoint.com/jenkins/jenkins_overview.htm - *
+<a name="end7">[<sup>[**7**]</sup>](#ref7)</a> *https://www.tutorialspoint.com/jenkins/jenkins_overview.htm - Info about Jenkins and Installation plus other useful things regarding Jenkins*
 
-<a name="end8">[<sup>[**8**]</sup>](#ref8)</a> *https://www.digitalocean.com/community/tutorials/ci-cd-tools-comparison-jenkins-gitlab-ci-buildbot-drone-and-concourse - *
+<a name="end8">[<sup>[**8**]</sup>](#ref8)</a> *https://www.digitalocean.com/community/tutorials/ci-cd-tools-comparison-jenkins-gitlab-ci-buildbot-drone-and-concourse - A blog about a variety of CI/CD tools*
 
-<a name="end9">[<sup>[**9**]</sup>](#ref9)</a> *https://www.codereviewvideos.com/course/your-own-private-github/video/zero-to-gitlab-in-5-minutes - *
+<a name="end9">[<sup>[**9**]</sup>](#ref9)</a> *https://www.codereviewvideos.com/course/your-own-private-github/video/zero-to-gitlab-in-5-minutes - A very thorough guide of how to install GitLab and various tools for GitLab*
 
-<a name="end10">[<sup>[**10**]</sup>](#ref10)</a> *https://www.slant.co/versus/2477/2482/~jenkins_vs_gitlab-ci - *
+<a name="end10">[<sup>[**10**]</sup>](#ref10)</a> *https://www.slant.co/versus/2477/2482/~jenkins_vs_gitlab-ci - A blog about the difference between Jenkins and GitLab, mostly their CI utilities*
 
-<a name="end11">[<sup>[**11**]</sup>](#ref11)</a> *https://www.upguard.com/articles/teamcity-vs.-jenkins-for-continuous-integration  - *
+<a name="end11">[<sup>[**11**]</sup>](#ref11)</a> *https://www.upguard.com/articles/teamcity-vs.-jenkins-for-continuous-integration  - A blog about the comparison between Jenkins and TeamCity*
 
-<a name="end12">[<sup>[**12**]</sup>](#ref12)</a> *https://wiki.jenkins.io/pages/viewpage.action?pageId=58001258 - *
+<a name="end12">[<sup>[**12**]</sup>](#ref12)</a> *https://wiki.jenkins.io/pages/viewpage.action?pageId=58001258 - A list of companies and open source projects that uses Jenkins*
 
-<a name="end13">[<sup>[**13**]</sup>](#ref13)</a> *https://www.cloudbees.com/press/jenkins-community-reaches-milestone-more-100000-active-installations-worldwide - *
+<a name="end13">[<sup>[**13**]</sup>](#ref13)</a> *https://www.cloudbees.com/press/jenkins-community-reaches-milestone-more-100000-active-installations-worldwide - An article about the 100.000 users milestone for Jenkins*
 
 
 <br> https://youtu.be/T9qTWAG8s-E - ssh key creation
