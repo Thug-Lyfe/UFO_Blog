@@ -1,4 +1,4 @@
-# Continious Integration and why you should use it
+# The Road to Autonomous Testing and Deployment
 ---
 ### Authors
 Marco S. Blum
@@ -10,7 +10,7 @@ Christian Lind
 
 ---
 
-### What is CI?
+### What is Continuous Integration?
 A simple change to a single file can easily have unintended consequences to a working repository. This can result in merging conflicts or integration problems. CI is most often used in the effort of alleviating those problems. 
 
 The practice of continuous integration<a name="ref1">[<sup>[**1**]</sup>](#end1)</a><a name="ref2">[<sup>[**2**]</sup>](#end2)</a> is the process of committing and integrating code, to a shared repository more frequently during the working process. Which is most often followed by automated unit and integration tests, to make certain, the code is up to standard. This leads to less merging conflicts, since the commits are smaller and less comprehensive. It also provides the developers, with a faster feedback, which leads to better and faster written code.
