@@ -1,4 +1,4 @@
-# The Road to Autonomous Testing and Deployment
+# A guide to Autonomous Testing and Deployment
 ---
 ### Authors
 Marco S. Blum
