@@ -48,7 +48,6 @@ There are next to no requirements for jenkins. All the user needs is:
 ### Pros for CI over manual integration
 
 - Issues caught early
-- No merge conflicts
 - The waiting to see if one members code works won’t be there as it will be tested and built as it gets committed
 - It’s automated
 - Makes it easier for deployment
