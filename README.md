@@ -19,8 +19,14 @@ The practice of continuous integration<a name="ref1">[<sup>[**1**]</sup>](#end1)
 Continuous delivery <a name="ref3">[<sup>[**3**]</sup>](#end3)</a> is an extension of continuous integration, Where continuous delivery focuses more on delivering code rapidly and safely to a production environment. All the newly added code will be added to a testing environment where it will not only be submitted to automated unit, integration tests, but also functional tests and more. This in turn means that the developer or the owner is 100% sure that the code works and can be deployed with relative ease.
 
 
-<p align="center"><img src="https://puppet.com/sites/default/files/2016-09/puppet_continuous_diagram.gif" alt="delivery vs deployment" width="50%" height="50%" border="10"></p>
-*Diagram showcasing delivery and deployment*<a name="ref4">[<sup>[**4**]</sup>](#end4)</a> 
+<p align="center"><img src="https://puppet.com/sites/default/files/2016-09/puppet_continuous_diagram.gif" alt="delivery vs deployment" width="50%" height="50%" border="10"></p> 
+
+
+
+
+*Diagram showcasing delivery and deployment* <a name="ref4">[<sup>[**4**]</sup>](#end4)</a>
+
+
 
 
 ### What is Continuous Deployment 
