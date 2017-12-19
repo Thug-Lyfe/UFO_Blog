@@ -16,7 +16,7 @@ A simple change to a single file can easily have unintended consequences to a wo
 The practice of continuous integration<a name="ref1">[<sup>[**1**]</sup>](#end1)</a><a name="ref2">[<sup>[**2**]</sup>](#end2)</a> is the process of committing and integrating code, to a shared repository more frequently during the working process. Which is most often followed by automated unit and integration tests, to make certain, the code is up to standard. This leads to less merging conflicts, since the commits are smaller and less comprehensive. It also provides the developers, with a faster feedback, which leads to better and faster written code.
 
 ### What is Continuous Delivery 
-Continuous delivery <a name="ref3">[<sup>[**3**]</sup>](#end3)</a> is an extension of continuous integration, Where continuous delivery focuses more on delivering code rapidly and safely to a production environment. All the newly added code will be added to a testing environment where it will not only be submitted to automated unit, integration tests, but also functional tests and more. This in turn means that the developer or the owner is 100% sure that the code works and can be deployed with relative ease.
+Continuous delivery<a name="ref3">[<sup>[**3**]</sup>](#end3)</a> is an extension of continuous integration, Where continuous delivery focuses more on delivering code rapidly and safely to a production environment. All the newly added code will be added to a testing environment where it will not only be submitted to automated unit, integration tests, but also functional tests and more. This in turn means that the developer or the owner is 100% sure that the code works and can be deployed with relative ease.
 
 
 <p align="center"><img src="https://puppet.com/sites/default/files/2016-09/puppet_continuous_diagram.gif" alt="delivery vs deployment" width="50%" height="50%" border="10"></p> 
@@ -156,7 +156,9 @@ Jenkins has even reached more than 100.000 Active installations worldwide<a name
 
 <a name="end10">[<sup>[**10**]</sup>](#ref10)</a> *https://www.slant.co/versus/2477/2482/~jenkins_vs_gitlab-ci - A blog about the difference between Jenkins and GitLab, mostly their CI utilities*
 
-<a name="end11">[<sup>[**11**]</sup>](#ref11)</a> *https://www.upguard.com/articles/teamcity-vs.-jenkins-for-continuous-integration  - A blog about the comparison between Jenkins and TeamCity*
+<a name="end11">[<sup>[**11**]</sup>](#ref11)</a> *https://www.upguard.com/articles/teamcity-vs.-jenkins-for-continuous-integration 
+
+*A blog about the comparison between Jenkins and TeamCity*
 
 <a name="end12">[<sup>[**12**]</sup>](#ref12)</a> *https://wiki.jenkins.io/pages/viewpage.action?pageId=58001258 - A list of companies and open source projects that uses Jenkins*
 
