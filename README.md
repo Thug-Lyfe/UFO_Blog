@@ -167,6 +167,6 @@ Jenkins has even reached more than 100.000 Active installations worldwide<a name
 <a name="end13">[<sup>[**13**]</sup>](#ref13)</a> https://www.cloudbees.com/press/jenkins-community-reaches-milestone-more-100000-active-installations-worldwide - *An article about the 100.000 users milestone for Jenkins*
 
 
-<br> *https://youtu.be/T9qTWAG8s-E - ssh key creation*
-<br> *https://youtu.be/pFwREmUMz64 - Digital ocean droplet create*
-<br> *https://youtu.be/4b_OvbeQYko - Jenkins installation video*
+<br> https://youtu.be/T9qTWAG8s-E - *ssh key creation*
+<br> https://youtu.be/pFwREmUMz64 - *Digital ocean droplet create*
+<br> https://youtu.be/4b_OvbeQYko - *Jenkins installation video*
