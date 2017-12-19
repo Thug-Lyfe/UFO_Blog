@@ -20,7 +20,7 @@ Continuous delivery <a name="ref3">[<sup>[**3**]</sup>](#end3)</a> is an extensi
 
 
 <p align="center"><img src="https://puppet.com/sites/default/files/2016-09/puppet_continuous_diagram.gif" alt="delivery vs deployment" width="50%" height="50%" border="10"></p>
-*Diagram showcasing delivery and deployment<a name="ref4">[<sup>[**4**]</sup>](#end4)</a>* 
+*Diagram showcasing delivery and deployment*<a name="ref4">[<sup>[**4**]</sup>](#end4)</a> 
 
 
 ### What is Continuous Deployment 
@@ -135,19 +135,28 @@ Jenkins has even reached more than 100.000 Active installations worldwide<a name
 <a name="end2">[<sup>[**2**]</sup>](#ref2)</a> *https://www.visualstudio.com/learn/what-is-continuous-integration/ - *
 
 <a name="end3">[<sup>[**3**]</sup>](#ref3)</a> *https://blog.assembla.com/assemblablog/tabid/12618/bid/92411/continuous-delivery-vs-continuous-deployment-vs-continuous-integration-wait-huh.aspx - *
+
 <a name="end4">[<sup>[**4**]</sup>](#ref4)</a> *https://puppet.com/blog/continuous-delivery-vs-continuous-deployment-what-s-diff  - *
+
 <a name="end5">[<sup>[**5**]</sup>](#ref5)</a> *http://searchsoftwarequality.techtarget.com/definition/Continuous-Software-Development - *
+
 <a name="end6">[<sup>[**6**]</sup>](#ref6)</a> *https://en.wikipedia.org/wiki/Jenkins_(software) - *
+
 <a name="end7">[<sup>[**7**]</sup>](#ref7)</a> *https://www.tutorialspoint.com/jenkins/jenkins_overview.htm - *
+
 <a name="end8">[<sup>[**8**]</sup>](#ref8)</a> *https://www.digitalocean.com/community/tutorials/ci-cd-tools-comparison-jenkins-gitlab-ci-buildbot-drone-and-concourse - *
+
 <a name="end9">[<sup>[**9**]</sup>](#ref9)</a> *https://www.codereviewvideos.com/course/your-own-private-github/video/zero-to-gitlab-in-5-minutes - *
+
 <a name="end10">[<sup>[**10**]</sup>](#ref10)</a> *https://www.slant.co/versus/2477/2482/~jenkins_vs_gitlab-ci - *
+
 <a name="end11">[<sup>[**11**]</sup>](#ref11)</a> *https://www.upguard.com/articles/teamcity-vs.-jenkins-for-continuous-integration  - *
+
 <a name="end12">[<sup>[**12**]</sup>](#ref12)</a> *https://wiki.jenkins.io/pages/viewpage.action?pageId=58001258 - *
+
 <a name="end13">[<sup>[**13**]</sup>](#ref13)</a> *https://www.cloudbees.com/press/jenkins-community-reaches-milestone-more-100000-active-installations-worldwide - *
 
-<br> ref.2 - https://en.wikipedia.org/wiki/Jenkins_(software)
-<br> ref.1 - https://www.visualstudio.com/learn/what-is-continuous-integration/
+
 <br> https://youtu.be/T9qTWAG8s-E - ssh key creation
 <br> https://youtu.be/pFwREmUMz64 - Digital ocean droplet create
 <br> https://youtu.be/4b_OvbeQYko - Jenkins installation video
