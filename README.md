@@ -24,7 +24,7 @@ Continuous delivery<a name="ref3">[<sup>[**3**]</sup>](#end3)</a> is an extensio
 
 
 
-*Diagram showcasing delivery and deployment<a name="ref4">[<sup>[**4**]</sup>](#end4)</a>*
+*Diagram showcasing delivery and deployment*<a name="ref4">[<sup>[**4**]</sup>](#end4)</a>
 
 
 
