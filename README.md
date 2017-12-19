@@ -110,6 +110,7 @@ There are many tools for making a CI/CD chain, too many to test them all. So we 
 
 ### GitLab Ci
 While Jenkins needs to be setup with a github repository to get a CI/CD working, GitLab is on the other hand set up without github. When GitLab is installed you can create git projects on the GitLab server and push your code to your own server directly instead, this means that with a bit of security in place you can have your own private github server. It is both open source and has many features that make CI/CD chain swift to set up.
+
 If you want to check out how to install it go <a name="ref9">here[<sup>[**9**]</sup>](#end9)</a> , if you want to know how others feel about the two tools you can go <a name="ref10">here[<sup>[**10**]</sup>](#end10)</a>, 
 
 ### Teamcity
@@ -129,7 +130,10 @@ https://stackify.com/top-continuous-integration-tools/
 ---
 
 ## So what about CI? Who even bothers with Jenkins?
-Well Jenkins is pretty well spread in the industry as it is both robust and open source, of course there some things it could improve, like default ports and plugins that need the entire jenkins server to restart etc. But there are some big companies out there who use it such as<a name="ref12">[<sup>[**12**]</sup>](#end12)</a>  : ebay, yahoo, linkedin, netflix, nintendo, tumblr, even the uk government uses jenkins. 
+Well Jenkins is pretty well spread in the industry as it is both robust and open source, of course there some things it could improve, like default ports and plugins that need the entire jenkins server to restart etc. 
+
+But there are some big companies out there who use it such as<a name="ref12">[<sup>[**12**]</sup>](#end12)</a>  : ebay, yahoo, linkedin, netflix, nintendo, tumblr, even the uk government uses jenkins. 
+
 While we are certainly not a big company it has been a relative a a good experience to use it for personal websites and school projects.
 Jenkins has even reached more than 100.000 Active installations worldwide<a name="ref13">[<sup>[**13**]</sup>](#end13)</a>.  
 
@@ -156,9 +160,7 @@ Jenkins has even reached more than 100.000 Active installations worldwide<a name
 
 <a name="end10">[<sup>[**10**]</sup>](#ref10)</a> *https://www.slant.co/versus/2477/2482/~jenkins_vs_gitlab-ci - A blog about the difference between Jenkins and GitLab, mostly their CI utilities*
 
-<a name="end11">[<sup>[**11**]</sup>](#ref11)</a> *https://www.upguard.com/articles/teamcity-vs.-jenkins-for-continuous-integration 
-
-*A blog about the comparison between Jenkins and TeamCity*
+<a name="end11">[<sup>[**11**]</sup>](#ref11)</a> *https://www.upguard.com/articles/teamcity-vs.-jenkins-for-continuous-integration - A blog about the comparison between Jenkins and TeamCity*
 
 <a name="end12">[<sup>[**12**]</sup>](#ref12)</a> *https://wiki.jenkins.io/pages/viewpage.action?pageId=58001258 - A list of companies and open source projects that uses Jenkins*
 
