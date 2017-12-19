@@ -6,21 +6,32 @@ Marco S. Blum
 Christian Lind
 
 ---
-*Every developer has been in the situation where they have to deploy a webapp. Doing this manually can lead to inconsistency and mistakes. This is where setting up your ‘continuous integration’ with Jenkins can help you a lot. Setting up jenkins is easier than you might have thought, and your knowledge of it should not stop you from getting a completely autonomous deployment chain.*
+*Every developer has been in the situation where they have to deploy a webapp. Doing this manually can lead to inconsistency and mistakes. This is where setting up your ‘continuous integration and deployment’ with Jenkins can help you a lot. This is a guide for fellow students or people who would like to know more about setting up a CI/CD chain and how it can be both easy and painless.*
 
 ---
-We want to show, that setting up a CI chain can be both easy and painless. Even if you have no knowledge of it beforehand and even if you are students such as ourselves, that you can with relative ease setup Jenkins.
+
+### What is CI?
+A simple change to a single file can easily have unintended consequences to a working repository. This can result in merging conflicts or integration problems. CI is most often used in the effort of alleviating those problems. 
+
+The practice of continuous integration<a name="ref1">[<sup>[**1**]</sup>](#end1)</a><a name="ref2">[<sup>[**2**]</sup>](#end2)</a> is the process of committing and integrating code, to a shared repository more frequently during the working process. Which is most often followed by automated unit and integration tests, to make certain, the code is up to standard. This leads to less merging conflicts, since the commits are smaller and less comprehensive. It also provides the developers, with a faster feedback, which leads to better and faster written code.
+
+### What is Continuous Delivery 
+Continuous delivery <a name="ref3">[<sup>[**3**]</sup>](#end3)</a> is an extension of continuous integration, Where continuous delivery focuses more on delivering code rapidly and safely to a production environment. All the newly added code will be added to a testing environment where it will not only be submitted to automated unit, integration tests, but also functional tests and more. This in turn means that the developer or the owner is 100% sure that the code works and can be deployed with relative ease.
 
 
-### What is CI? -ref.1
+<p align="center"><img src="https://puppet.com/sites/default/files/2016-09/puppet_continuous_diagram.gif" alt="delivery vs deployment" width="50%" height="50%" border="10"></p>
+*Diagram showcasing delivery and deployment<a name="ref4">[<sup>[**4**]</sup>](#end4)</a>* 
 
-Every developer knows the struggle of merging. A simple change to a single file can easily have unintended consequences to a working repository. This results in development teams working isolated from each other, even as far to be working on their own separate branches of the master, to prevent getting tangled up in each other’s work.
-Development teams that are working on branches that hasn’t been integrated to the master,  often requires phases of stabilization and integration, prior to a release.
-The practice of continuous integration addresses these problems and is being used to encourage development teams to commit and integrate their code, to a shared repository more frequently doing the working process. When a developer commits code to the shared repository, an automated build will be triggered to grab the code and start a build, tests and validations of the full master branch. It’s used to identify and fix mistake faster, which then increases the productivity.
 
-### Jenkins ref.2
+### What is Continuous Deployment 
+Continuous deployment<a name="ref5">[<sup>[**5**]</sup>](#end5)</a> is an extension of continuous delivery. However, it focuses on fully automating not only the testing environment, but also the deployment, so that each commit is deployed automatically after it has passed all the delivery tests. This minimizes the amount of time a devops or developer has to work to get the webapp to live, and leads to an overall performance boost. In Jenkins you can set ssh keys up between jenkins and the host, so that it logs in and deploys the webapp by itself, everytime a new version of the code is live. 
 
-Jenkins is a software which operates as an automated server, running on servlet containers, that allows continuous integration.
+Continuous deployment<a name="ref4">[<sup>[**4**]</sup>](#end4)</a> isn’t suitable for just any company. It is not everyone who wants the newest iteration of the website to go live the minute it’s made. Though continuous delivery is an absolute must, if the developer is seperate from the owner of the website. Since this means the owner can, at all times, deploy the newest version when it has reached a suitable state. Also the developer doesn’t have to deal with presenting and testing, but can solely focus on contributing more work to improve the platform.
+
+
+### Jenkins 
+
+Jenkins<a name="ref6">[<sup>[**6**]</sup>](#end6)</a> is a software which operates as an automated server, running on servlet containers, that allows continuous integration.
 
 These following steps will showcase how Jenkins works during a workflow:
 - Developers check their source code
@@ -28,9 +39,9 @@ These following steps will showcase how Jenkins works during a workflow:
 - The build output will be available in the Jenkins dashboards.
 <p align="center"><img src="https://github.com/Thug-Lyfe/UFO_Blog/blob/master/src/jenkins_diagram.png" alt="jenkins diagram" width="50%" height="50%" border="10"></p>
 
-#### Requirements
+#### Requirements 
 
-There are next to no requirements for jenkins. All the user needs is: 
+There are next to no requirements for jenkins. All the user needs is<a name="ref7">[<sup>[**7**]</sup>](#end7)</a>: 
 - JDK 1.5 or above
 - A droplet with min 1GB of ram though 2 GB is recommended
 - Any operating system
@@ -86,15 +97,55 @@ The lines to paste into your putty window is as following:
 ---
 <br>
 
-## Why don't we see more Jenkins?
-Well if jenkins is so good, why are there not more people using it? Well first of all jenkins is not for everyone, nor is it omnipotent, eg. people who are using platforms such as wordpress or other webapp creators, will not find much use for it, as they have CI build into it. But for everyone making their own webapp from scrap, even if it is for a local network, it can work splendidly.
-<br>Another reason is that it costs money, if you have it hosted on digitalocean.com it will cost a minimum of 10 dollars a month, and that can be a solid reason for many small time business owners, or private people to not opt for using it.
+## Alternatives… 
+Well Jenkins is all fine and dandy, but what about other software<a name="ref8">[<sup>[**8**]</sup>](#end8)</a> that can be used to make a CI/CD chain?
 
-### So what should we take away from this?
-Anyone who has to deal with manual deployment, should think about setting up a CI chain. It can not be said enough, that manual deployment leads to irregular deployments, mistakes, missed steps in the deployment chain and so on. <br>Having an autonomous deployment, will make it both easier and better for all partners involved.
+There are many tools for making a CI/CD chain, too many to test them all. So we have gathered what we think is some of the better ones, if they are better is up for to you to decide.
+
+### GitLab Ci
+While Jenkins needs to be setup with a github repository to get a CI/CD working, GitLab is on the other hand set up without github. When GitLab is installed you can create git projects on the GitLab server and push your code to your own server directly instead, this means that with a bit of security in place you can have your own private github server. It is both open source and has many features that make CI/CD chain swift to set up.
+If you want to check out how to install it go <a name="ref9">here[<sup>[**9**]</sup>](#end9)</a> , if you want to know how others feel about the two tools you can go <a name="ref10">here[<sup>[**10**]</sup>](#end10)</a>, 
+
+### Teamcity
+
+Teamcity<a name="ref11">[<sup>[**11**]</sup>](#end11)</a> is a java-based CI server package that has a simple, quick and easy configuration and installation. It has a great interface and helpful features for getting started with continuous integration. However, all around it might be the better alternative, but it’s not an open-source software as jenkins, nor is it free. After the initial 100 builds, where a webapp usually needs a couple for various things, it is 300 euro for 10 builds extra and 2000 euro for unlimited build configurations, and it only escalates with the number of threads you need or want.
+
+We will suggest you to check out a few others, such as: 
+- Buildbot https://buildbot.net
+- Concourse https://concourse.ci 
+- Travis CI https://travis-ci.org 
+
+
+If you are interested in other alternatives check out:
+https://www.infostretch.com/blog/39-tools-for-building-your-cicd-stack/ or 
+https://stackify.com/top-continuous-integration-tools/ 
 
 ---
-## References
+
+## So what about CI? Who even bothers with Jenkins?
+Well Jenkins is pretty well spread in the industry as it is both robust and open source, of course there some things it could improve, like default ports and plugins that need the entire jenkins server to restart etc. But there are some big companies out there who use it such as<a name="ref12">[<sup>[**12**]</sup>](#end12)</a>  : ebay, yahoo, linkedin, netflix, nintendo, tumblr, even the uk government uses jenkins. 
+While we are certainly not a big company it has been a relative a a good experience to use it for personal websites and school projects.
+Jenkins has even reached more than 100.000 Active installations worldwide<a name="ref13">[<sup>[**13**]</sup>](#end13)</a>.  
+
+
+---
+## References   
+<a name="end1">[<sup>[**1**]</sup>](#ref1)</a> *https://en.wikipedia.org/wiki/Continuous_integration - *
+
+<a name="end2">[<sup>[**2**]</sup>](#ref2)</a> *https://www.visualstudio.com/learn/what-is-continuous-integration/ - *
+
+<a name="end3">[<sup>[**3**]</sup>](#ref3)</a> *https://blog.assembla.com/assemblablog/tabid/12618/bid/92411/continuous-delivery-vs-continuous-deployment-vs-continuous-integration-wait-huh.aspx - *
+<a name="end4">[<sup>[**4**]</sup>](#ref4)</a> *https://puppet.com/blog/continuous-delivery-vs-continuous-deployment-what-s-diff  - *
+<a name="end5">[<sup>[**5**]</sup>](#ref5)</a> *http://searchsoftwarequality.techtarget.com/definition/Continuous-Software-Development - *
+<a name="end6">[<sup>[**6**]</sup>](#ref6)</a> *https://en.wikipedia.org/wiki/Jenkins_(software) - *
+<a name="end7">[<sup>[**7**]</sup>](#ref7)</a> *https://www.tutorialspoint.com/jenkins/jenkins_overview.htm - *
+<a name="end8">[<sup>[**8**]</sup>](#ref8)</a> *https://www.digitalocean.com/community/tutorials/ci-cd-tools-comparison-jenkins-gitlab-ci-buildbot-drone-and-concourse - *
+<a name="end9">[<sup>[**9**]</sup>](#ref9)</a> *https://www.codereviewvideos.com/course/your-own-private-github/video/zero-to-gitlab-in-5-minutes - *
+<a name="end10">[<sup>[**10**]</sup>](#ref10)</a> *https://www.slant.co/versus/2477/2482/~jenkins_vs_gitlab-ci - *
+<a name="end11">[<sup>[**11**]</sup>](#ref11)</a> *https://www.upguard.com/articles/teamcity-vs.-jenkins-for-continuous-integration  - *
+<a name="end12">[<sup>[**12**]</sup>](#ref12)</a> *https://wiki.jenkins.io/pages/viewpage.action?pageId=58001258 - *
+<a name="end13">[<sup>[**13**]</sup>](#ref13)</a> *https://www.cloudbees.com/press/jenkins-community-reaches-milestone-more-100000-active-installations-worldwide - *
+
 <br> ref.2 - https://en.wikipedia.org/wiki/Jenkins_(software)
 <br> ref.1 - https://www.visualstudio.com/learn/what-is-continuous-integration/
 <br> https://youtu.be/T9qTWAG8s-E - ssh key creation
